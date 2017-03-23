@@ -1,4 +1,4 @@
-package ru.masterhole.ui;
+package ru.masterhole.ui.button;
 
 import java.awt.*;
 

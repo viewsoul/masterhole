@@ -1,14 +1,18 @@
 package ru.masterhole.ui;
 
-import javax.swing.*;
+import ru.masterhole.ui.button.Button;
+import ru.masterhole.ui.button.ButtonProduct;
+import ru.masterhole.ui.button.ButtonSubProduct;
+import ru.masterhole.ui.panel.Panel;
 
+import static ru.masterhole.ui.Constants.HEIGHT_BORDER_BUTTON_MENU;
 import static ru.masterhole.ui.Constants.HEIGHT_BUTTON_MENU;
 
 /**
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 17.03.2017.
  */
-public enum Buttons {
+public enum ButtonsMenu {
     EKRAN               (new ButtonProduct("Экраны для батарей")),
     RESH_PERFO          (new ButtonProduct("Решётки перфорированные")),
     RESH_PERFO_VSTR     (new ButtonSubProduct("Встраиваемые")),
@@ -32,7 +36,7 @@ public enum Buttons {
     private Button button;
 
     // конструктор
-    Buttons(Button button) {
+    ButtonsMenu(Button button) {
         this.button = button;
     }
 
@@ -44,9 +48,9 @@ public enum Buttons {
     // получить кнопку по хэшкоду
     public static Button getButton(int hashCode){
         Button button = null;
-        for (Buttons buttons : Buttons.values()){
-            if (buttons.getButton().hashCode() == hashCode) {
-                button = buttons.getButton();
+        for (ButtonsMenu buttonsMenu : ButtonsMenu.values()){
+            if (buttonsMenu.getButton().hashCode() == hashCode) {
+                button = buttonsMenu.getButton();
                 break;
             }
         }
@@ -54,19 +58,19 @@ public enum Buttons {
     }
 
     // инвертировать отображение кнопок для подразделов по индесу кнопки
-    public static void setVisibleByIndex(int index){
+    public static void reviewSubButtonsByIndex(int index){
 
         // если индекс кнопки соответствует разделу, а не подразделу
-        if (Buttons.values()[index].getButton() instanceof ButtonProduct){
+        if (ButtonsMenu.values()[index].getButton() instanceof ButtonProduct){
             // искать подрезделы для данного раздела
-            for(int i = index+1; i < Buttons.values().length; i++){
+            for(int i = index+1; i < ButtonsMenu.values().length; i++){
                 // если следующий индекс соотвествует подразделу
-                if (Buttons.values()[i].getButton() instanceof ButtonSubProduct) {
+                if (ButtonsMenu.values()[i].getButton() instanceof ButtonSubProduct) {
                     // инвертировать видимость
-                    if (Buttons.values()[i].getButton().isVisible()) {
-                        Buttons.values()[i].getButton().setVisible(false);
+                    if (ButtonsMenu.values()[i].getButton().isVisible()) {
+                        ButtonsMenu.values()[i].getButton().setVisible(false);
                     } else {
-                        Buttons.values()[i].getButton().setVisible(true);
+                        ButtonsMenu.values()[i].getButton().setVisible(true);
                     }
                 } else {
                     break;
@@ -76,15 +80,15 @@ public enum Buttons {
     }
 
     // инвертировать отображение кнопок для подразделов по хэшкоду
-    public static void setVisibleByHashCode(int hashCode){
-          setVisibleByIndex(getIndexButton(hashCode));
+    public static void reviewSubButtonsByHashCode(int hashCode){
+          reviewSubButtonsByIndex(getIndexButton(hashCode));
     }
 
     // получить индекс кнопки по хэшкоду
     public static int getIndexButton(int hashCode){
         int index = 0;
-        for (int i = 0; i < Buttons.values().length; i++){
-            if (Buttons.values()[i].getButton().hashCode() == hashCode) {
+        for (int i = 0; i < ButtonsMenu.values().length; i++){
+            if (ButtonsMenu.values()[i].getButton().hashCode() == hashCode) {
                 index = i;
                 break;
             }
@@ -102,22 +106,22 @@ public enum Buttons {
         // количество видимых кнопок
         int count = 0;
         // считаем все видимые
-        for (Buttons buttons : Buttons.values()){
-            if (buttons.getButton().isVisible()) {
+        for (ButtonsMenu buttonsMenu : ButtonsMenu.values()){
+            if (buttonsMenu.getButton().isVisible()) {
                 count++;
             }
         }
 
-        System.out.println("рекомендуемая высота панели меню: "+count*HEIGHT_BUTTON_MENU);
+        int heightPanel = (HEIGHT_BORDER_BUTTON_MENU+HEIGHT_BUTTON_MENU)*count+HEIGHT_BORDER_BUTTON_MENU;
 
         // возвращаем высоту панели
-        return count*HEIGHT_BUTTON_MENU;
+        return heightPanel;
     }
 
     // добавить кнопки на панель
-    public static void add(Panel panel){
-        for (Buttons buttons : Buttons.values()){
-            panel.getPanel().add(buttons.getButton());
+    public static void addButtons(Panel panel){
+        for (ButtonsMenu buttonsMenu : ButtonsMenu.values()){
+            panel.getPanel().add(buttonsMenu.getButton());
         }
     }
 

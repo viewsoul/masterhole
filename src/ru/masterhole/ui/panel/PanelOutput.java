@@ -1,4 +1,6 @@
-package ru.masterhole.ui;
+package ru.masterhole.ui.panel;
+
+import ru.masterhole.ui.Constants;
 
 import java.awt.*;
 

@@ -1,4 +1,7 @@
-package ru.masterhole.ui;
+package ru.masterhole.ui.button;
+
+import ru.masterhole.ui.ClickButtonsMenu;
+import ru.masterhole.ui.Constants;
 
 import javax.swing.*;
 import java.awt.*;
@@ -29,7 +32,7 @@ public abstract class Button extends JButton implements Constants {
         this.setVisible(true);
 
         // слушатель клика по кнопке
-        this.addActionListener(new ClickButtons());
+        this.addActionListener(new ClickButtonsMenu());
     }
 
 }

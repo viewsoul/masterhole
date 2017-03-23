@@ -1,4 +1,6 @@
-package ru.masterhole.ui;
+package ru.masterhole.ui.frame;
+
+import ru.masterhole.ui.Constants;
 
 import javax.swing.*;
 import java.awt.*;
@@ -7,7 +9,7 @@ import java.awt.*;
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 20.03.2017.
  */
-public class Frame extends JFrame implements Constants{
+public class Frame extends JFrame implements Constants {
 
     public Frame() {
         // заголовок окна
