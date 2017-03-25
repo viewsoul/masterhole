@@ -1,6 +1,4 @@
-package ru.masterhole.ui.panel;
-
-import ru.masterhole.ui.Constants;
+package ru.masterhole.ui.panel.output;
 
 import java.awt.*;
 
@@ -8,7 +6,7 @@ import java.awt.*;
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 21.03.2017.
  */
-public class PanelOutput extends Panel implements Constants {
+public class PanelOutput extends ru.masterhole.ui.panel.Panel implements SizePanelOutput {
 
     public PanelOutput() {
         this.getPanel().setSize(WIDTH_OUTPUT,HEIGHT_OUTPUT);

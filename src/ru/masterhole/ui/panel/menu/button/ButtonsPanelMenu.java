@@ -1,18 +1,12 @@
-package ru.masterhole.ui;
+package ru.masterhole.ui.panel.menu.button;
 
-import ru.masterhole.ui.button.Button;
-import ru.masterhole.ui.button.ButtonProduct;
-import ru.masterhole.ui.button.ButtonSubProduct;
 import ru.masterhole.ui.panel.Panel;
-
-import static ru.masterhole.ui.Constants.HEIGHT_BORDER_BUTTON_MENU;
-import static ru.masterhole.ui.Constants.HEIGHT_BUTTON_MENU;
 
 /**
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 17.03.2017.
  */
-public enum ButtonsMenu {
+public enum ButtonsPanelMenu implements SizePanelMenuButton {
     EKRAN               (new ButtonProduct("Экраны для батарей")),
     RESH_PERFO          (new ButtonProduct("Решётки перфорированные")),
     RESH_PERFO_VSTR     (new ButtonSubProduct("Встраиваемые")),
@@ -36,7 +30,7 @@ public enum ButtonsMenu {
     private Button button;
 
     // конструктор
-    ButtonsMenu(Button button) {
+    ButtonsPanelMenu(Button button) {
         this.button = button;
     }
 
@@ -48,9 +42,9 @@ public enum ButtonsMenu {
     // получить кнопку по хэшкоду
     public static Button getButton(int hashCode){
         Button button = null;
-        for (ButtonsMenu buttonsMenu : ButtonsMenu.values()){
-            if (buttonsMenu.getButton().hashCode() == hashCode) {
-                button = buttonsMenu.getButton();
+        for (ButtonsPanelMenu buttonsPanelMenu : ButtonsPanelMenu.values()){
+            if (buttonsPanelMenu.getButton().hashCode() == hashCode) {
+                button = buttonsPanelMenu.getButton();
                 break;
             }
         }
@@ -61,16 +55,16 @@ public enum ButtonsMenu {
     public static void reviewSubButtonsByIndex(int index){
 
         // если индекс кнопки соответствует разделу, а не подразделу
-        if (ButtonsMenu.values()[index].getButton() instanceof ButtonProduct){
+        if (ButtonsPanelMenu.values()[index].getButton() instanceof ButtonProduct){
             // искать подрезделы для данного раздела
-            for(int i = index+1; i < ButtonsMenu.values().length; i++){
+            for(int i = index+1; i < ButtonsPanelMenu.values().length; i++){
                 // если следующий индекс соотвествует подразделу
-                if (ButtonsMenu.values()[i].getButton() instanceof ButtonSubProduct) {
+                if (ButtonsPanelMenu.values()[i].getButton() instanceof ButtonSubProduct) {
                     // инвертировать видимость
-                    if (ButtonsMenu.values()[i].getButton().isVisible()) {
-                        ButtonsMenu.values()[i].getButton().setVisible(false);
+                    if (ButtonsPanelMenu.values()[i].getButton().isVisible()) {
+                        ButtonsPanelMenu.values()[i].getButton().setVisible(false);
                     } else {
-                        ButtonsMenu.values()[i].getButton().setVisible(true);
+                        ButtonsPanelMenu.values()[i].getButton().setVisible(true);
                     }
                 } else {
                     break;
@@ -87,8 +81,8 @@ public enum ButtonsMenu {
     // получить индекс кнопки по хэшкоду
     public static int getIndexButton(int hashCode){
         int index = 0;
-        for (int i = 0; i < ButtonsMenu.values().length; i++){
-            if (ButtonsMenu.values()[i].getButton().hashCode() == hashCode) {
+        for (int i = 0; i < ButtonsPanelMenu.values().length; i++){
+            if (ButtonsPanelMenu.values()[i].getButton().hashCode() == hashCode) {
                 index = i;
                 break;
             }
@@ -106,8 +100,8 @@ public enum ButtonsMenu {
         // количество видимых кнопок
         int count = 0;
         // считаем все видимые
-        for (ButtonsMenu buttonsMenu : ButtonsMenu.values()){
-            if (buttonsMenu.getButton().isVisible()) {
+        for (ButtonsPanelMenu buttonsPanelMenu : ButtonsPanelMenu.values()){
+            if (buttonsPanelMenu.getButton().isVisible()) {
                 count++;
             }
         }
@@ -120,8 +114,8 @@ public enum ButtonsMenu {
 
     // добавить кнопки на панель
     public static void addButtons(Panel panel){
-        for (ButtonsMenu buttonsMenu : ButtonsMenu.values()){
-            panel.getPanel().add(buttonsMenu.getButton());
+        for (ButtonsPanelMenu buttonsPanelMenu : ButtonsPanelMenu.values()){
+            panel.getPanel().add(buttonsPanelMenu.getButton());
         }
     }
 

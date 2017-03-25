@@ -1,7 +1,5 @@
 package ru.masterhole.ui.panel;
 
-import ru.masterhole.ui.Constants;
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -11,7 +9,7 @@ import static javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER;
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 20.03.2017.
  */
-public abstract class Panel implements Constants {
+public abstract class Panel {
     private JPanel panel;
     private JScrollPane scrollPane;
 

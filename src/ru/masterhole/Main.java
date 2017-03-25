@@ -1,6 +1,6 @@
 package ru.masterhole;
 
-import ru.masterhole.ui.frame.FrameMain;
+import ru.masterhole.ui.FrameMain;
 
 /**
  * Автор: Павел "viewsoul" Фетисов
