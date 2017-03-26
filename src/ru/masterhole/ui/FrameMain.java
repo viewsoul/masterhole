@@ -2,7 +2,7 @@ package ru.masterhole.ui;
 
 import ru.masterhole.ui.panel.PanelsFrameMain;
 import ru.masterhole.ui.panel.input.PanelInput;
-import ru.masterhole.ui.panel.menu.PanelMenuButton;
+import ru.masterhole.ui.panel.menu.PanelMenu;
 import ru.masterhole.ui.panel.output.PanelOutput;
 
 import javax.swing.*;
@@ -53,7 +53,7 @@ public class FrameMain extends JFrame implements PanelsFrameMain, SizeFrameMain 
 
     }
 
-    public PanelMenuButton getPanelMenu() {
+    public PanelMenu getPanelMenu() {
         return PANEL_MENU;
     }
 

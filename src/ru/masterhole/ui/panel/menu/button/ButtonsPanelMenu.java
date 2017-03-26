@@ -22,7 +22,7 @@ public enum ButtonsPanelMenu implements SizePanelMenuButton {
     KOROB_P             (new ButtonSubProduct("П-образные")),
     RESH_ZALUZ          (new ButtonProduct("Решётки жалюзийные")),
     RESH_ZALUZ_VSTR     (new ButtonSubProduct("Встраиваемые")),
-    RESH_ZALUZ_NAKL     (new ButtonSubProduct("Вакладные")),
+    RESH_ZALUZ_NAKL     (new ButtonSubProduct("Накладные")),
     HATCH_PERFO         (new ButtonProduct("Люки перфорированные")),
     HATCH_PERFO_VSTR    (new ButtonSubProduct("Встраиваемые")),
     HATCH_PERFO_NAKL    (new ButtonSubProduct("Накладные"));
@@ -39,6 +39,11 @@ public enum ButtonsPanelMenu implements SizePanelMenuButton {
         return button;
     }
 
+    // получить кнопку
+    public void setButton(Button button) {
+        this.button = button;
+    }
+
     // получить кнопку по хэшкоду
     public static Button getButton(int hashCode){
         Button button = null;
@@ -49,6 +54,18 @@ public enum ButtonsPanelMenu implements SizePanelMenuButton {
             }
         }
         return button;
+    }
+
+    // источник
+    public static ButtonsPanelMenu getSource(int hashCode){
+        ButtonsPanelMenu bpm = null;
+        for (ButtonsPanelMenu buttonsPanelMenu : ButtonsPanelMenu.values()){
+            if (buttonsPanelMenu.getButton().hashCode() == hashCode) {
+                bpm = buttonsPanelMenu;
+                break;
+            }
+        }
+        return bpm;
     }
 
     // инвертировать отображение кнопок для подразделов по индесу кнопки
@@ -90,10 +107,6 @@ public enum ButtonsPanelMenu implements SizePanelMenuButton {
         return index;
     }
 
-    // установить кнопку
-    public void setButton(Button button) {
-        this.button = button;
-    }
 
     // получить сумму высот видимых кнопок
     public static int getHeightVisibleButtons(){

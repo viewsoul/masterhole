@@ -1,4 +1,4 @@
-package ru.masterhole.ui.panel.input.field.item;
+package ru.masterhole.ui.panel.input.field.component.item;
 
 /**
  * Автор: Павел "viewsoul" Фетисов

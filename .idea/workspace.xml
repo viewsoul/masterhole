@@ -2,36 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da45fb70-a566-4391-a363-24fdee8c0103" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/SizeFrameMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/action/ClickPanelMenuButtons.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelsFrameMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/SizePanelInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/FieldsPanelInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/SizeField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/item/ItemsPanelInputFields.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/LabelField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/SizeLabelField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/LabelTitle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/SizeLabelTitle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/PanelMenuButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/SizePanelMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/SizePanelMenuButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/output/SizePanelOutput.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/ClickButtonsMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/frame/Frame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelInput.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelMenu.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/ComponentList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/ComponentText.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/FormPattern.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/FormsPattern.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/TitlesPanelInput.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/SizeField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/SizeLabelField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/SizeLabelTitle.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/Main.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/Panel.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/Panel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/ButtonsMenu.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonsPanelMenu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/button/Button.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/Button.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/button/ButtonProduct.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/button/ButtonSubProduct.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonSubProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/frame/FrameMain.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/FrameMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelOutput.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/output/PanelOutput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/FrameMain.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/FrameMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/SizeFrameMain.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/SizeFrameMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/action/ClickPanelMenuButtons.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/action/ClickPanelMenuButtons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelsFrameMain.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelsFrameMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/SizePanelInput.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/SizePanelInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/FieldsPanelInput.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/FieldsPanelInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/LabelField.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/LabelField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonsPanelMenu.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonsPanelMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/item/ItemsPanelInputFields.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/item/ItemsPanelInputFields.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/LabelTitle.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/label/LabelTitle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/PanelMenuButton.java" afterPath="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/PanelMenu.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,21 +38,69 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Button.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/Button.java">
+      <file leaf-file-name="FieldsPanelInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/FieldsPanelInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3011#3012#0" expanded="true" />
+                <element signature="e#3038#3039#0" expanded="true" />
+                <element signature="e#3078#3079#0" expanded="true" />
+                <element signature="e#3110#3111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PanelInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SizePanelInput.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/SizePanelInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Panel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/Panel.java">
+      <file leaf-file-name="PanelMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/PanelMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="280">
+              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SizePanelMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/SizePanelMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LabelTitle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/label/LabelTitle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +111,8 @@
       <file leaf-file-name="LabelField.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/LabelField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,57 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/Main.java">
+      <file leaf-file-name="FrameMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/FrameMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClickPanelMenuButtons.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/action/ClickPanelMenuButtons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PanelsFrameMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelsFrameMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LabelTitle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/LabelTitle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SizeLabelField.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/SizeLabelField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="155">
+              <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -140,20 +133,22 @@
       <file leaf-file-name="SizeFrameMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/SizeFrameMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="160">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/FrameMain.java">
+      <file leaf-file-name="TitlesPanelInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/TitlesPanelInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#addLabelTitle#0;class#TitlesPanelInput#0" expanded="false" />
+                <element signature="method#setVisibleOff#0;class#TitlesPanelInput#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -165,8 +160,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -176,6 +171,13 @@
       <find>,true</find>
       <find>JLabel</find>
       <find>Label</find>
+      <find>ButtonSubProduct</find>
+      <find>TITLE_</find>
+      <find>LabelTitle</find>
+      <find>,null</find>
+      <find>JComboBox</find>
+      <find>&lt;String&gt;</find>
+      <find>JTextField</find>
     </findStrings>
     <replaceStrings>
       <replace>,false</replace>
@@ -183,6 +185,11 @@
       <replace>)</replace>
       <replace>Label</replace>
       <replace>LabelField</replace>
+      <replace>LabelTitle</replace>
+      <replace>FORM_</replace>
+      <replace>FormField</replace>
+      <replace>ComponentList</replace>
+      <replace>ComponentText</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -196,33 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/field/FieldsInputPanelInput.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/size/input/SizeLabelField.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelInput.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/size/input/SizeField.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/item/ItemsPanelInput.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/item/PanelInputFieldsItems.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/item/ItemsPanelInputFields.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/field/FieldsItemsPanelInputFields.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/field/FieldsPanelInput.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/frame/panel/input/PanelInput.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/frame/panel/output/PanelOutput.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/frame/panel/menu/PanelMenuButton.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/main/menu/PanelMenuButton.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/PanelsFrameMain.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/Panel.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/Button.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/input/LabelTitle.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/input/title/LabelTitle.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/input/field/label/LabelField.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/Label.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/model/Button.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/Panel.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/Frame.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/main/FrameMain.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/frame/SizeFrame.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/SizePanelOutput.java" />
-        <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/SizePanelInput.java" />
         <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/input/SizePanelInput.java" />
         <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/menu/SizePanelMenu.java" />
         <option value="$PROJECT_DIR$/src/ru/masterhole/main/panel/output/SizePanelOutput.java" />
@@ -245,8 +225,35 @@
         <option value="$PROJECT_DIR$/src/ru/masterhole/ui/frame/main/SizeFrameMain.java" />
         <option value="$PROJECT_DIR$/src/ru/masterhole/ui/frame/main/FrameMain.java" />
         <option value="$PROJECT_DIR$/src/ru/masterhole/Main.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/Title.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/FormField.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PattensForm.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/PattensForm.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/FormPatterns.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/PanelMenuButton.java" />
         <option value="$PROJECT_DIR$/src/ru/masterhole/ui/FrameMain.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelsFrameMain.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/data/DataBank.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonsPanelMenu.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/TitlesPanelInput.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/FormsPattern.java" />
         <option value="$PROJECT_DIR$/src/ru/masterhole/ui/action/ClickPanelMenuButtons.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/SizeFrameMain.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/FormPattern.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/SizeField.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/SizeLabelField.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/SizeComponent.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/label/SizeLabelTitle.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/Component.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/item/ItemsPanelInputFields.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/FieldsPanelInput.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/ComponentList.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/ComponentText.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/LabelField.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/SizePanelMenu.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/label/LabelTitle.java" />
+        <option value="$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/SizePanelInput.java" />
       </list>
     </option>
   </component>
@@ -326,11 +333,301 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="button" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="title" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="title" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="label" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="field" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="field" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="label" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterhole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490295528261</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Структура программы, элементы панели ввода.">
+      <created>1490453727511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490453727511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -631,12 +935,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18802084" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19114584" sideWeight="0.48662552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17916666" sideWeight="0.5133745" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -649,7 +954,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -657,7 +961,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Скрол панели меню." />
-    <option name="LAST_COMMIT_MESSAGE" value="Скрол панели меню." />
+    <MESSAGE value="Структура программы, элементы панели ввода." />
+    <option name="LAST_COMMIT_MESSAGE" value="Структура программы, элементы панели ввода." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -681,86 +986,6 @@
     <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonsPanelMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="117" column="39" lean-forward="false" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
-          <folding>
-            <element signature="method#getIndexButton#0;class#ButtonsPanelMenu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonSubProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/action/ClickPanelMenuButtons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/PanelMenuButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
           <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -772,7 +997,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,7 +1016,8 @@
         <state relative-caret-position="420">
           <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
-            <element signature="method#getIndexButton#0;class#ButtonsPanelMenu#0" expanded="false" />
+            <element signature="method#reviewSubButtonsByIndex#0;class#ButtonsPanelMenu#0" expanded="false" />
+            <element signature="method#addButtons#0;class#ButtonsPanelMenu#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,9 +1026,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +1034,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#clear#0;class#ClickPanelMenuButtons#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -822,14 +1051,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/frame/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/frame/Frame.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/Panels.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/ContentInput.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/swing/DefaultComboBoxModel.java">
@@ -861,62 +1083,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/size/SizeFrameMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/size/Size.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonSubProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonsPanelMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="method#getIndexButton#0;class#ButtonsPanelMenu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/size/SizeFrameMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/size/Size.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/output/PanelOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -927,55 +1095,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/PanelMenuButton.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/output/SizePanelOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/item/ItemsPanelInputFields.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/Label.java" />
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/frame/Frame.java" />
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/PattensForm.java" />
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelsFrameMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/FieldsPanelInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="200">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/SizePanelInput.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="260">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/SizePanelMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/data/DataBank.java" />
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/action/ClickPanelMenuButtons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="695">
+          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#clear#0;class#ClickPanelMenuButtons#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonSubProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/output/SizePanelOutput.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/ButtonsPanelMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding>
+            <element signature="method#reviewSubButtonsByIndex#0;class#ButtonsPanelMenu#0" expanded="false" />
+            <element signature="method#addButtons#0;class#ButtonsPanelMenu#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/FormsPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/form/FormPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/SizeField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/SizeComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/label/SizeLabelTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/SizeLabelField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/item/ItemsPanelInputFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/ComponentList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/component/ComponentText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -987,127 +1274,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/SizeField.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/FieldsPanelInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/SizeLabelTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="300">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3011#3012#0" expanded="true" />
+            <element signature="e#3038#3039#0" expanded="true" />
+            <element signature="e#3078#3079#0" expanded="true" />
+            <element signature="e#3110#3111#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/button/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/Label.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/LabelTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/SizeLabelField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/field/label/LabelField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/PanelsFrameMain.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/FrameMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/frame/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="155">
+          <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/SizeFrameMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="160">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/FrameMain.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/PanelMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/menu/SizePanelMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/TitlesPanelInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addLabelTitle#0;class#TitlesPanelInput#0" expanded="false" />
+            <element signature="method#setVisibleOff#0;class#TitlesPanelInput#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/title/label/LabelTitle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/action/ClickPanelMenuButtons.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/PanelInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="380">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/masterhole/ui/panel/input/SizePanelInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

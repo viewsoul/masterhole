@@ -9,9 +9,9 @@ import java.awt.*;
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 21.03.2017.
  */
-public class PanelMenuButton extends ru.masterhole.ui.panel.Panel implements SizePanelMenu, SizePanelMenuButton {
+public class PanelMenu extends ru.masterhole.ui.panel.Panel implements SizePanelMenu, SizePanelMenuButton {
 
-    public PanelMenuButton() {
+    public PanelMenu() {
         this.getPanel().setSize(WIDTH_MENU, HEIGHT_MENU);
         this.getPanel().setPreferredSize(new Dimension(WIDTH_MENU, HEIGHT_MENU));
         this.getPanel().setBackground(Color.WHITE);
