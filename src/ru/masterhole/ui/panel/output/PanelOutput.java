@@ -11,6 +11,6 @@ public class PanelOutput extends ru.masterhole.ui.panel.Panel implements SizePan
     public PanelOutput() {
         this.getPanel().setSize(WIDTH_OUTPUT,HEIGHT_OUTPUT);
         this.getPanel().setPreferredSize(new Dimension(WIDTH_OUTPUT,HEIGHT_OUTPUT));
-        this.getPanel().setBackground(Color.DARK_GRAY);
+        this.getPanel().setBackground(new Color(45,45,45));
     }
 }

@@ -14,7 +14,7 @@ public class PanelInput extends ru.masterhole.ui.panel.Panel implements SizePane
     public PanelInput() {
         this.getPanel().setSize(WIDTH_INPUT, HEIGHT_INPUT);
         this.getPanel().setPreferredSize(new Dimension(WIDTH_INPUT, HEIGHT_INPUT));
-        this.getPanel().setBackground(Color.LIGHT_GRAY);
+        this.getPanel().setBackground(Color.WHITE);
         this.getPanel().setLayout(new FlowLayout(FlowLayout.LEFT,WIDTH_BORDER_INPUT, HEIGHT_BORDER_INPUT));
 
         // добавить заголовки
