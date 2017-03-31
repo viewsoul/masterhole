@@ -1,7 +1,7 @@
-package ru.masterhole.ui.panel.input.title;
+package ru.masterhole.ui.panel.input.form.title;
 
 import ru.masterhole.ui.panel.Panel;
-import ru.masterhole.ui.panel.input.title.label.LabelTitle;
+import ru.masterhole.ui.panel.input.form.title.label.LabelTitle;
 
 /**
  * Автор: Павел "viewsoul" Фетисов
@@ -36,17 +36,6 @@ public enum TitlesPanelInput {
 
     public LabelTitle getLableTitle() {
         return labelTitle;
-    }
-
-    // добавить заголовок на панель
-    public static void addLabelTitle(Panel panel) {
-        for (TitlesPanelInput titlesPanelInput : TitlesPanelInput.values()){
-            // скрыть заголовок
-            titlesPanelInput.getLableTitle().setVisible(false);
-            // добавить заголовок на панель
-            panel.getPanel().add(titlesPanelInput.getLableTitle());
-        }
-
     }
 
     public static void setVisibleOff(){

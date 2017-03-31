@@ -1,10 +1,10 @@
 package ru.masterhole.ui.panel.input.form;
 
-import ru.masterhole.ui.panel.input.field.FieldsPanelInput;
-import ru.masterhole.ui.panel.input.title.TitlesPanelInput;
+import ru.masterhole.ui.panel.input.form.field.FieldsPanelInput;
+import ru.masterhole.ui.panel.input.form.title.TitlesPanelInput;
 import ru.masterhole.ui.panel.menu.button.ButtonsPanelMenu;
 
-import static ru.masterhole.ui.panel.input.field.FieldsPanelInput.*;
+import static ru.masterhole.ui.panel.input.form.field.FieldsPanelInput.*;
 
 /**
  * Автор: Павел "viewsoul" Фетисов
@@ -23,23 +23,28 @@ public interface FormsPattern {
 
     // решётки перфорированные встраиваемые
     FormPattern FORM_RESH_PERFO_VSTR = new FormPattern(TitlesPanelInput.TITLE_RESH_PERFO_VSTR,
-            new FieldsPanelInput[]{SIZE,LENGHT,HEIGHT});
+            new FieldsPanelInput[]{SIZE,LENGHT,HEIGHT,RAMKA,REBRO,PERFO,VIREZ,HOLE,
+                    GRUNT,COLOR,OTHER_WORK,PACK,MARGIN});
 
 
     FormPattern FORM_RESH_PERFO_NAKL = new FormPattern(TitlesPanelInput.TITLE_RESH_PERFO_NAKL,
-            new FieldsPanelInput[]{LENGHT,HEIGHT});
+            new FieldsPanelInput[]{LENGHT,HEIGHT,PERFO,RAMKA,RAMKA_PLIT,REBRO,VIREZ,HOLE,GRUNT,
+                    COLOR,OTHER_WORK,PACK,MARGIN});
 
 
     FormPattern FORM_RESH_PERFO_PL = new FormPattern(TitlesPanelInput.TITLE_RESH_PERFO_PL,
-            new FieldsPanelInput[]{LENGHT,HEIGHT});
+            new FieldsPanelInput[]{LENGHT,HEIGHT,RAMKA,PERFO,VIREZ,HOLE,GRUNT,COLOR,OTHER_WORK,
+                    PACK,MARGIN});
 
 
     FormPattern FORM_RESH_PERFO_PL_SPOD = new FormPattern(TitlesPanelInput.TITLE_RESH_PERFO_PL_SPOD,
-            new FieldsPanelInput[]{LENGHT,HEIGHT});
+            new FieldsPanelInput[]{LENGHT,HEIGHT,RAMKA,PERFO,VIREZ,HOLE,GRUNT,COLOR,OTHER_WORK,
+                    PACK,MARGIN});
 
 
     FormPattern FORM_RESH_PERFO_VIPKL = new FormPattern(TitlesPanelInput.TITLE_RESH_PERFO_VIPKL,
-            new FieldsPanelInput[]{LENGHT,HEIGHT});
+            new FieldsPanelInput[]{SIZE,LENGHT,HEIGHT,BULGE,RAMKA,REBRO,PERFO,VIREZ,HOLE,GRUNT,
+                    COLOR,OTHER_WORK,PACK,MARGIN});
 
 
     FormPattern FORM_HATCH = new FormPattern(TitlesPanelInput.TITLE_HATCH,
@@ -47,7 +52,8 @@ public interface FormsPattern {
 
 
     FormPattern FORM_HATCH_VSTR = new FormPattern(TitlesPanelInput.TITLE_HATCH_VSTR,
-            new FieldsPanelInput[]{SIZE,LENGHT,HEIGHT});
+            new FieldsPanelInput[]{SIZE,LENGHT,HEIGHT,RAMKA,RAMKA_SPOD,REBRO,DOOR_TWO,USILITEL,
+                    HOLE,HANDLE,MAGNET,LOCK,MINILATCH,SHPINGALET,GRUNT,COLOR,OTHER_WORK,PACK,MARGIN});
 
 
     FormPattern FORM_HATCH_NAKL = new FormPattern(TitlesPanelInput.TITLE_HATCH_NAKL,
@@ -86,7 +92,4 @@ public interface FormsPattern {
 
     FormPattern FORM_HATCH_PERFO_NAKL = new FormPattern(TitlesPanelInput.TITLE_HATCH_PERFO_NAKL,
             new FieldsPanelInput[]{LENGHT,HEIGHT});
-
-    // показать форму панели ввода по нажатой кнопке
-    public void getFormPattern(ButtonsPanelMenu button);
 }

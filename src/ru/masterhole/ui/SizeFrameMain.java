@@ -6,5 +6,5 @@ package ru.masterhole.ui;
  */
 public interface SizeFrameMain {
     int WIDTH_WINDOW = 800;
-    int HEIGHT_WINDOW = 600;
+    int HEIGHT_WINDOW = 480;
 }

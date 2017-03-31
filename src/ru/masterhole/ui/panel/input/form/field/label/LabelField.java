@@ -1,4 +1,4 @@
-package ru.masterhole.ui.panel.input.field.label;
+package ru.masterhole.ui.panel.input.form.field.label;
 
 import ru.masterhole.ui.panel.input.SizePanelInput;
 

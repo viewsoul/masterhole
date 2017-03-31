@@ -1,7 +1,6 @@
 package ru.masterhole.ui.panel.input;
 
-import ru.masterhole.ui.panel.input.field.FieldsPanelInput;
-import ru.masterhole.ui.panel.input.title.TitlesPanelInput;
+import ru.masterhole.ui.panel.input.form.FormsController;
 
 import java.awt.*;
 
@@ -17,11 +16,8 @@ public class PanelInput extends ru.masterhole.ui.panel.Panel implements SizePane
         this.getPanel().setBackground(Color.WHITE);
         this.getPanel().setLayout(new FlowLayout(FlowLayout.LEFT,WIDTH_BORDER_INPUT, HEIGHT_BORDER_INPUT));
 
-        // добавить заголовки
-        TitlesPanelInput.addLabelTitle(this);
-
-        // добавить поля контента
-        FieldsPanelInput.addFields(this);
+        // добавить заголовки и поля на панель ввода
+        FormsController.add(this);
 
     }
 }
