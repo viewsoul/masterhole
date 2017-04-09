@@ -14,7 +14,7 @@ public interface SizePanelInput {
     int WIDTH_BORDER_INPUT = 32;
 
     // размеры полей
-    int HEIGHT_TITLE_INPUT = 48;
+    int HEIGHT_TITLE_INPUT = 40;
     int HEIGHT_FIELD_INPUT = 32;
     int WIDTH_FILED_INPUT = WIDTH_INPUT - 2*WIDTH_BORDER_INPUT;
     int WIDTH_HALF_FIELD_INPUT = (WIDTH_FILED_INPUT-WIDTH_BORDER_INPUT)/2;

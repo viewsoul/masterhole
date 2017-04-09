@@ -38,7 +38,7 @@ public class FormPattern implements SizePanelInput {
         // показать все поля
         for (FieldsPanelInput fieldsPanelInput : list){
             // показать название поля
-            fieldsPanelInput.getText().setVisible(true);
+            fieldsPanelInput.getTitle().setVisible(true);
             // показать компонент поля
             fieldsPanelInput.getComponent().setVisible(true);
         }

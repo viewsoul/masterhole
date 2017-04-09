@@ -14,7 +14,7 @@ public interface FormsPattern {
 
     // экран для батареи отопления
     FormPattern FORM_EKRAN = new FormPattern(TitlesPanelInput.TITLE_EKRAN,
-            new FieldsPanelInput[]{LENGHT,HEIGHT,DEPTH,SIDE_LEFT,SIDE_RIGHT,PERFO,
+            new FieldsPanelInput[]{LENGHT,HEIGHT,DEPTH,SIDE_LEFT,SIDE_RIGHT,SIDE_FACE,PERFO,
                     RADIUS,VIREZ,UPOR,GRUNT,COLOR,OTHER_WORK,PACK,MARGIN});
 
     // решётки перфорированные
@@ -92,4 +92,7 @@ public interface FormsPattern {
 
     FormPattern FORM_HATCH_PERFO_NAKL = new FormPattern(TitlesPanelInput.TITLE_HATCH_PERFO_NAKL,
             new FieldsPanelInput[]{LENGHT,HEIGHT});
+
+    FormPattern FORM_SHEET = new FormPattern(TitlesPanelInput.TITLE_SHEET,
+            new FieldsPanelInput[]{LENGHT,HEIGHT,SHEET_COMPOSITION});
 }

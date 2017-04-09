@@ -7,15 +7,16 @@ import java.awt.*;
 
 /**
  * Автор: Павел "viewsoul" Фетисов
- * Дата создания: 27.03.2017.
+ * Дата создания: 29.03.2017.
  */
-public class ComponentListStr extends JComboBox implements SizePanelInput {
+public class ValueSelect extends JComboBox<Integer> implements SizePanelInput{
 
-    public ComponentListStr(String [] items) {
+    public ValueSelect(Integer [] items) {
         super(items);
         // скрыть
         this.setVisible(false);
         // установить рамеры компонента
         this.setPreferredSize(new Dimension(WIDTH_HALF_FIELD_INPUT,HEIGHT_FIELD_INPUT));
     }
+
 }

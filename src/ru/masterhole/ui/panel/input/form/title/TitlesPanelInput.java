@@ -1,41 +1,39 @@
 package ru.masterhole.ui.panel.input.form.title;
 
-import ru.masterhole.ui.panel.Panel;
-import ru.masterhole.ui.panel.input.form.title.label.LabelTitle;
-
 /**
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 25.03.2017.
  */
 public enum TitlesPanelInput {
-    TITLE_EKRAN               (new LabelTitle("Экраны для батарей")),
-    TITLE_RESH_PERFO          (new LabelTitle("Решётки перфорированные")),
-    TITLE_RESH_PERFO_VSTR     (new LabelTitle("Решётки перфорированные встраиваемые")),
-    TITLE_RESH_PERFO_NAKL     (new LabelTitle("Решётки перфорированные накладные")),
-    TITLE_RESH_PERFO_PL       (new LabelTitle("Решётки перфорированные плоские")),
-    TITLE_RESH_PERFO_PL_SPOD  (new LabelTitle("Решётки перфорированные плоские с подгибом")),
-    TITLE_RESH_PERFO_VIPKL    (new LabelTitle("Решётки перфорированные выпуклые")),
-    TITLE_HATCH               (new LabelTitle("Люки")),
-    TITLE_HATCH_VSTR          (new LabelTitle("Люки встраиваемые")),
-    TITLE_HATCH_NAKL          (new LabelTitle("Люки накладные")),
-    TITLE_KOROB               (new LabelTitle("Короба")),
-    TITLE_KOROB_G             (new LabelTitle("Короба Г-образные")),
-    TITLE_KOROB_P             (new LabelTitle("Короба П-образные")),
-    TITLE_RESH_ZALUZ          (new LabelTitle("Решётки жалюзийные")),
-    TITLE_RESH_ZALUZ_VSTR     (new LabelTitle("Решётки жалюзийные встраиваемые")),
-    TITLE_RESH_ZALUZ_NAKL     (new LabelTitle("Решётки жалюзийные накладные")),
-    TITLE_HATCH_PERFO         (new LabelTitle("Люки перфорированные")),
-    TITLE_HATCH_PERFO_VSTR    (new LabelTitle("Люки перфорированные встраиваемые")),
-    TITLE_HATCH_PERFO_NAKL    (new LabelTitle("Люки перфорированные накладные"));
+    TITLE_EKRAN               (new TitleForm("Экраны для батарей")),
+    TITLE_RESH_PERFO          (new TitleForm("Решётки перфорированные")),
+    TITLE_RESH_PERFO_VSTR     (new TitleForm("Решётки перфорированные встраиваемые")),
+    TITLE_RESH_PERFO_NAKL     (new TitleForm("Решётки перфорированные накладные")),
+    TITLE_RESH_PERFO_PL       (new TitleForm("Решётки перфорированные плоские")),
+    TITLE_RESH_PERFO_PL_SPOD  (new TitleForm("Решётки перфорированные плоские с подгибом")),
+    TITLE_RESH_PERFO_VIPKL    (new TitleForm("Решётки перфорированные выпуклые")),
+    TITLE_HATCH               (new TitleForm("Люки")),
+    TITLE_HATCH_VSTR          (new TitleForm("Люки встраиваемые")),
+    TITLE_HATCH_NAKL          (new TitleForm("Люки накладные")),
+    TITLE_KOROB               (new TitleForm("Короба")),
+    TITLE_KOROB_G             (new TitleForm("Короба Г-образные")),
+    TITLE_KOROB_P             (new TitleForm("Короба П-образные")),
+    TITLE_RESH_ZALUZ          (new TitleForm("Решётки жалюзийные")),
+    TITLE_RESH_ZALUZ_VSTR     (new TitleForm("Решётки жалюзийные встраиваемые")),
+    TITLE_RESH_ZALUZ_NAKL     (new TitleForm("Решётки жалюзийные накладные")),
+    TITLE_HATCH_PERFO         (new TitleForm("Люки перфорированные")),
+    TITLE_HATCH_PERFO_VSTR    (new TitleForm("Люки перфорированные встраиваемые")),
+    TITLE_HATCH_PERFO_NAKL    (new TitleForm("Люки перфорированные накладные")),
+    TITLE_SHEET               (new TitleForm("Листы металлические"));
 
-    private LabelTitle labelTitle;
+    private TitleForm titleForm;
 
-    TitlesPanelInput(LabelTitle labelTitle) {
-        this.labelTitle = labelTitle;
+    TitlesPanelInput(TitleForm titleForm) {
+        this.titleForm = titleForm;
     }
 
-    public LabelTitle getLableTitle() {
-        return labelTitle;
+    public TitleForm getLableTitle() {
+        return titleForm;
     }
 
     public static void setVisibleOff(){

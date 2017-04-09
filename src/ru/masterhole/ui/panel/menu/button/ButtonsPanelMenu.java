@@ -25,7 +25,8 @@ public enum ButtonsPanelMenu implements SizePanelMenuButton {
     RESH_ZALUZ_NAKL     (new ButtonSubProduct("Накладные")),
     HATCH_PERFO         (new ButtonProduct("Люки перфорированные")),
     HATCH_PERFO_VSTR    (new ButtonSubProduct("Встраиваемые")),
-    HATCH_PERFO_NAKL    (new ButtonSubProduct("Накладные"));
+    HATCH_PERFO_NAKL    (new ButtonSubProduct("Накладные")),
+    SHEET               (new ButtonProduct("Листы"));
 
     private Button button;
 

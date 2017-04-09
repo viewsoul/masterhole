@@ -9,13 +9,12 @@ import java.awt.*;
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 27.03.2017.
  */
-public class ComponentText extends JTextField implements SizePanelInput {
+public class TextSelect extends JComboBox<String> implements SizePanelInput {
 
-    public ComponentText() {
-
+    public TextSelect(String [] items) {
+        super(items);
         // скрыть
         this.setVisible(false);
-
         // установить рамеры компонента
         this.setPreferredSize(new Dimension(WIDTH_HALF_FIELD_INPUT,HEIGHT_FIELD_INPUT));
     }

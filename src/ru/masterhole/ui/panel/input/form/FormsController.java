@@ -3,7 +3,7 @@ package ru.masterhole.ui.panel.input.form;
 import ru.masterhole.ui.panel.Panel;
 import ru.masterhole.ui.panel.PanelsFrameMain;
 import ru.masterhole.ui.panel.input.form.field.FieldsPanelInput;
-import ru.masterhole.ui.panel.input.form.field.component.item.ItemsPanelInputFields;
+import ru.masterhole.ui.panel.input.form.field.component.item.ItemsFieldsPanelInput;
 import ru.masterhole.ui.panel.input.form.title.TitlesPanelInput;
 import ru.masterhole.ui.panel.menu.button.ButtonsPanelMenu;
 
@@ -15,7 +15,7 @@ import static ru.masterhole.ui.panel.input.form.field.FieldsPanelInput.*;
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 29.03.2017.
  */
-public class FormsController implements FormsPattern,PanelsFrameMain,ItemsPanelInputFields {
+public class FormsController implements FormsPattern,PanelsFrameMain,ItemsFieldsPanelInput {
 
     // получить шаблон формы ввода для нажатой кнопки
     public static void showForm(ButtonsPanelMenu button) {
@@ -79,6 +79,10 @@ public class FormsController implements FormsPattern,PanelsFrameMain,ItemsPanelI
             case HATCH_PERFO_NAKL:
                 view(FORM_HATCH_PERFO_NAKL);
                 break;
+
+            case SHEET:
+                view(FORM_SHEET);
+                break;
         }
 
         setupSettingItems(button);
@@ -130,7 +134,12 @@ public class FormsController implements FormsPattern,PanelsFrameMain,ItemsPanelI
                 break;
             case HATCH_VSTR:
                 setSelectedText(SIZE,TEXT_SIZE_POSADKA);
+                setSelectedValue(RAMKA,20);
+                setSelectedValue(REBRO,20);
                 setSelectedText(RAMKA_SPOD,TEXT_RAMKA_SPOD_NONE);
+                setSelectedText(GRUNT,TEXT_GRUNT_NONE);
+                setSelectedText(COLOR,TEXT_COLOR_WHITE);
+                setSelectedText(PACK,TEXT_PACK_STRETCH);
                 break;
             case HATCH_NAKL:
                 break;
@@ -178,7 +187,7 @@ public class FormsController implements FormsPattern,PanelsFrameMain,ItemsPanelI
         // поля
         for (FieldsPanelInput fieldsInput : FieldsPanelInput.values()){
             // добавить поле
-            panel.getPanel().add(fieldsInput.getText());
+            panel.getPanel().add(fieldsInput.getTitle());
             panel.getPanel().add(fieldsInput.getComponent());
         }
 
