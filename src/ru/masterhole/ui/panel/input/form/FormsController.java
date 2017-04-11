@@ -1,5 +1,7 @@
 package ru.masterhole.ui.panel.input.form;
 
+import ru.masterhole.models.sheet.SheetPerfo;
+import ru.masterhole.models.sheet.Sheets;
 import ru.masterhole.ui.panel.Panel;
 import ru.masterhole.ui.panel.PanelsFrameMain;
 import ru.masterhole.ui.panel.input.form.field.FieldsPanelInput;
@@ -163,6 +165,12 @@ public class FormsController implements FormsPattern,PanelsFrameMain,ItemsFields
                 setSelectedText(SIZE,TEXT_SIZE_POSADKA);
                 break;
             case HATCH_PERFO_NAKL:
+                break;
+            case SHEET:
+                setSelectedText(SHEET_COMPOSITION, Sheets.BLACK_PERFO_1_0_RV_3_5.getSheet().getSteelComposition().getTitle());
+                setSelectedText(SHEET_APPEARANCE, Sheets.BLACK_PERFO_1_0_RV_3_5.getSheet().getSteelAppearance().getTitle());
+                setSelectedText(SHEET_PERFO, ((SheetPerfo)Sheets.BLACK_PERFO_1_0_RV_3_5.getSheet()).getSteelPerfo().getTitle());
+                setSelectedText(SHEET_THICKNESS, Sheets.BLACK_PERFO_1_0_RV_3_5.getSheet().getSteelThickness().getTitle());
                 break;
         }
     }

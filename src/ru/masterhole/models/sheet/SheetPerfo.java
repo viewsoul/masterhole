@@ -17,4 +17,12 @@ public class SheetPerfo extends Sheet {
         super(cost, type, steelThickness, steelAppearance);
         this.steelPerfo = steelPerfo;
     }
+
+    public SteelPerfo getSteelPerfo() {
+        return steelPerfo;
+    }
+
+    public void setSteelPerfo(SteelPerfo steelPerfo) {
+        this.steelPerfo = steelPerfo;
+    }
 }

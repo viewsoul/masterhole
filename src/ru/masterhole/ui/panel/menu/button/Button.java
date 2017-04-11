@@ -1,6 +1,6 @@
 package ru.masterhole.ui.panel.menu.button;
 
-import ru.masterhole.ui.action.ClickPanelMenuButtons;
+import ru.masterhole.ui.panel.menu.action.ClickPanelMenuButtons;
 
 import javax.swing.*;
 import java.awt.*;

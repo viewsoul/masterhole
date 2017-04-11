@@ -23,4 +23,19 @@ public enum SteelThickness {
     public int getThickness() {
         return thickness;
     }
+
+    public String getTitle(){
+        return (float)thickness/1000+" мм";
+    }
+
+    public static String[] getTitles(){
+
+        int elements = SteelThickness.values().length;
+        String[] titles = new String [elements];
+
+        for (SteelThickness steelThickness : SteelThickness.values()) {
+            titles[steelThickness.ordinal()] = (float)steelThickness.getThickness()/1000+" мм";
+        }
+        return titles;
+    }
 }

@@ -94,5 +94,5 @@ public interface FormsPattern {
             new FieldsPanelInput[]{LENGHT,HEIGHT});
 
     FormPattern FORM_SHEET = new FormPattern(TitlesPanelInput.TITLE_SHEET,
-            new FieldsPanelInput[]{LENGHT,HEIGHT,SHEET_COMPOSITION});
+            new FieldsPanelInput[]{LENGHT,HEIGHT,SHEET_COMPOSITION, SHEET_APPEARANCE, SHEET_PERFO, SHEET_THICKNESS});
 }

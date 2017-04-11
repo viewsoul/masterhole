@@ -5,6 +5,9 @@ import ru.masterhole.models.sheet.steel.SteelPerfo;
 import ru.masterhole.models.sheet.steel.SteelThickness;
 import ru.masterhole.models.sheet.steel.SteelComposition;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Автор: Павел "viewsoul" Фетисов
  * Дата создания: 07.04.2017.
@@ -46,4 +49,55 @@ public enum Sheets {
     public void setSheet(Sheet sheet) {
         this.sheet = sheet;
     }
+
+    // возвращает массив уникальных заголовков всех химических типов стали
+    public static String[] getSteelCompositionTitles(){
+
+        Set<String> titles = new HashSet<>();
+
+        for (Sheets sheets : Sheets.values()) {
+            titles.add(sheets.getSheet().getSteelComposition().getTitle());
+        }
+
+        return titles.toArray(new String[titles.size()]);
+    }
+
+    // возвращает массив уникальных заголовков всех видов стали
+    public static String[] getSteelAppearanceTitles(){
+
+        Set<String> titles = new HashSet<>();
+
+        for (Sheets sheets : Sheets.values()) {
+            titles.add(sheets.getSheet().getSteelAppearance().getTitle());
+        }
+
+        return titles.toArray(new String[titles.size()]);
+    }
+
+    // возвращает массив уникальных заголовков всех перфораций стали
+    public static String[] getSteelPerfoTitles(){
+
+        Set<String> titles = new HashSet<>();
+
+        for (Sheets sheets : Sheets.values()) {
+            if (sheets.getSheet() instanceof SheetPerfo) {
+                titles.add(((SheetPerfo)(sheets.getSheet())).getSteelPerfo().getTitle());
+            }
+        }
+
+        return titles.toArray(new String[titles.size()]);
+    }
+
+    // возвращает массив уникальных заголовков всех толщин стали
+    public static String[] getSteelThicknessTitles(){
+
+        Set<String> titles = new HashSet<>();
+
+        for (Sheets sheets : Sheets.values()) {
+            titles.add( sheets.getSheet().getSteelThickness().getTitle());
+        }
+
+        return titles.toArray(new String[titles.size()]);
+    }
+
 }

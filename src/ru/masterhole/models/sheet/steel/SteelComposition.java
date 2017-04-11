@@ -5,9 +5,9 @@ package ru.masterhole.models.sheet.steel;
  * Дата создания: 01.04.2017.
  */
 public enum SteelComposition {
-    BLACK("чёрная"),
-    ZINC("оцинкованная"),
-    STAINLESS("нержавеющая");
+    BLACK("чёрный"),
+    ZINC("оцинкованный"),
+    STAINLESS("нержавеющий");
 
     private String title;
 

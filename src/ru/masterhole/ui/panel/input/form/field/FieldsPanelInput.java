@@ -1,6 +1,10 @@
 package ru.masterhole.ui.panel.input.form.field;
 
+import ru.masterhole.models.sheet.Sheets;
+import ru.masterhole.models.sheet.steel.SteelAppearance;
 import ru.masterhole.models.sheet.steel.SteelComposition;
+import ru.masterhole.models.sheet.steel.SteelPerfo;
+import ru.masterhole.models.sheet.steel.SteelThickness;
 import ru.masterhole.ui.panel.input.form.field.component.ValueSelect;
 import ru.masterhole.ui.panel.input.form.field.component.TextSelect;
 import ru.masterhole.ui.panel.input.form.field.component.ValueInput;
@@ -21,7 +25,10 @@ public enum FieldsPanelInput implements ItemsFieldsPanelInput {
     DEPTH(new TitleField("Глубина"), new ValueInput()),
     HEIGHT_TWO(new TitleField("Высота"), new ValueInput()),
     BULGE(new TitleField("Выпуклость"), new ValueInput()),
-    SHEET_COMPOSITION(new TitleField("Сталь"), new TextSelect(SteelComposition.getTitles())),
+    SHEET_COMPOSITION(new TitleField("Металл"), new TextSelect(Sheets.getSteelCompositionTitles())),
+    SHEET_APPEARANCE(new TitleField("Вид"), new TextSelect(Sheets.getSteelAppearanceTitles())),
+    SHEET_PERFO(new TitleField("Перфорация"), new TextSelect(Sheets.getSteelPerfoTitles())),
+    SHEET_THICKNESS(new TitleField("Толщина"), new TextSelect(Sheets.getSteelThicknessTitles())),
     RAMKA(new TitleField("Рамка"), new ValueSelect(ITEMS_RAMKA)),
     RAMKA_ZALUZ(new TitleField("Рамка"), new ValueSelect(ITEMS_RAMKA_ZALUZ)),
     RAMKA_SPOD(new TitleField("Рамка с подгибом"), new TextSelect(ITEMS_RAMKA_SPOD)),

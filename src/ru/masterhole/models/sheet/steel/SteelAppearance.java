@@ -8,17 +8,28 @@ public enum SteelAppearance {
     GLUH("глухой"),
     PERFO("перфорированный");
 
-    private String perfo;
+    private String title;
 
     SteelAppearance(String perfo) {
-        this.perfo = perfo;
+        this.title = perfo;
     }
 
-    public String getPerfo() {
-        return perfo;
+    public String getTitle() {
+        return title;
     }
 
-    public void setPerfo(String perfo) {
-        this.perfo = perfo;
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public static String[] getTitles(){
+
+        int elements = SteelAppearance.values().length;
+        String[] titles = new String[elements];
+
+        for (SteelAppearance steelAppearance: SteelAppearance.values()) {
+            titles[steelAppearance.ordinal()] = steelAppearance.getTitle();
+        }
+        return titles;
     }
 }

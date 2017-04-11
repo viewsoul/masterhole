@@ -1,4 +1,4 @@
-package ru.masterhole.ui.action;
+package ru.masterhole.ui.panel.menu.action;
 
 import ru.masterhole.ui.panel.PanelsFrameMain;
 import ru.masterhole.ui.panel.input.form.FormsController;
